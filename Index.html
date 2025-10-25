@@ -1,1 +1,93 @@
 
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سیستم جامع تحلیل و معامله‌گری هوشمند | نسخه پیشرفته</title>
+    
+    <!-- Meta Tags برای SEO -->
+    <meta name="description" content="سیستم پیشرفته تحلیل بازارهای مالی ایران با هوش مصنوعی و قابلیت معامله‌گری خودکار">
+    <meta name="keywords" content="بورس, ارز دیجیتال, طلا, تحلیل تکنیکال, هوش مصنوعی, معامله‌گری">
+    <meta name="author" content="Financial Analysis System">
+    
+    <!-- CDN ها -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    
+    <!-- فایل‌های اختصاصی -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Structured Data برای SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "سیستم تحلیل بازارهای مالی",
+        "description": "پلتفرم پیشرفته تحلیل و معامله‌گری در بازارهای مالی ایران",
+        "applicationCategory": "FinancialApplication",
+        "operatingSystem": "Web Browser"
+    }
+    </script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h3>در حال بارگذاری سیستم تحلیل مالی...</h3>
+            <p>لطفاً چند لحظه صبر کنید</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav" id="mainNav">
+        <div class="nav-brand">
+            <span class="logo">🎯</span>
+            <span class="brand-text">سامانه تحلیل هوشمند</span>
+        </div>
+        <div class="nav-actions">
+            <button class="nav-btn" id="themeToggle">🌙</button>
+            <button class="nav-btn" id="notificationBtn">🔔</button>
+            <button class="nav-btn" id="userMenu">👤</button>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <!-- محتوای سایدبار -->
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content" id="mainContent">
+            <!-- محتوای اصلی -->
+        </main>
+    </div>
+
+    <!-- Notification Center -->
+    <div class="notification-center" id="notificationCenter">
+        <!-- مرکز اعلانات -->
+    </div>
+
+    <!-- فایل‌های JavaScript -->
+    <script src="js/config/app.config.js"></script>
+    <script src="js/services/security.service.js"></script>
+    <script src="js/services/api.service.js"></script>
+    <script src="js/services/cache.service.js"></script>
+    <script src="js/managers/error.manager.js"></script>
+    <script src="js/managers/performance.manager.js"></script>
+    <script src="js/managers/ui.manager.js"></script>
+    <script src="js/managers/data.manager.js"></script>
+    <script src="js/ai/models/trading.model.js"></script>
+    <script src="js/ai/models/analysis.model.js"></script>
+    <script src="js/ai/models/risk.model.js"></script>
+    <script src="js/ai/engines/trading.engine.js"></script>
+    <script src="js/ai/engines/reporting.engine.js"></script>
+    <script src="js/ai/engines/prediction.engine.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
